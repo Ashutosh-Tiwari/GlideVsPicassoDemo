@@ -12,7 +12,7 @@ import com.simformsolutions.ashutoshtiwari.glidevspicasso.model.ImageModel;
 
 public class ImageViewModel extends BaseObservable {
 
-    private ImageModel imageModel;
+    private final ImageModel imageModel;
 
     public ImageViewModel(ImageModel imageModel) {
         this.imageModel = imageModel;

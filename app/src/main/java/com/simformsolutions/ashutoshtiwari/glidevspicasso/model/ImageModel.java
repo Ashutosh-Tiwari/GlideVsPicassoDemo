@@ -17,7 +17,8 @@ public class ImageModel {
         return imageUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
+  /*  public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
-    }
+    }*/
+  //No need of the setter for this version of application
 }

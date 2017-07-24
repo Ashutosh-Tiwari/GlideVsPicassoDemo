@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 .load(imageUrl)
                 .centerCrop()
                 .resize(200, 200) // Compulsory to mention for using centerCrop
-                .transform(new PicassoCircleTransform(imageView.getContext()))
+                .transform(new PicassoCircleTransform())
                 .placeholder(R.drawable.google_photos_400x400)
                 .error(R.mipmap.ic_launcher)
                 .into(imageView);
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static class PicassoCircleTransform implements Transformation {
 
-        PicassoCircleTransform(Context context) {
+        PicassoCircleTransform() {
         }
 
         @Override
