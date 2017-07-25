@@ -9,6 +9,7 @@ import com.bumptech.glide.module.GlideModule;
 
 /**
  * Created by Ashutosh.tiwari on 24/07/17.
+ * Custom color format configuration class that is specific to glide
  */
 
 public class GlideConfiguration implements GlideModule {
